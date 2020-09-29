@@ -1,4 +1,4 @@
 web:
   build: .
   volumes:
-    - .:/home/app/naturally
+    - .:/home/app/miriamtech-naturally

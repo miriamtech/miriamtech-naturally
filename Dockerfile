@@ -2,6 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y ruby
 RUN gem install bundler
-ADD Gemfile naturally.gemspec /home/app/naturally/
-WORKDIR /home/app/naturally
+ADD Gemfile miriamtech-naturally.gemspec /home/app/miriamtech-naturally/
+WORKDIR /home/app/miriamtech-naturally
 RUN bundle install

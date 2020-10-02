@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'miriamtech-naturally'
-  spec.version     = '1.0.0'
+  spec.version     = '1.1.0'
   spec.date        = '2020-09-24'
   spec.summary     = 'Naturally'
   spec.description = 'A gem to naturally sort strings'

@@ -28,9 +28,9 @@ module Naturally
     def add_to_tokens
       unless @current.empty?
         if @current =~ /^[0-9]+$/
-          @tokens << @current.to_i
+          @tokens << ComparableToken.new(@current.to_i)
         else
-          @tokens << @current
+          @tokens << ComparableToken.new(@current)
         end
       end
       @current = ''
